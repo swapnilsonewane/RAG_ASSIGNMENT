@@ -1,0 +1,46 @@
+# --- Core Frameworks ---
+langchain>=1.2.6
+langchain-community>=0.1.0
+langgraph>=1.0.6
+langchain-core>=0.3.0
+langchain_huggingface
+# --- LLM Provider Integrations ---
+langchain-groq>=1.1.1
+langchain-google-genai>=4.2.0
+
+# --- Vector Database ---
+qdrant-client==1.11.3
+
+# --- Search (BM25 at scale) ---
+opensearch-py>=2.4.0
+
+# --- Embeddings & Reranking ---
+sentence-transformers>=3.2.0
+torch>=2.1.0
+pandas
+# --- Document Processing ---
+pypdf>=5.1.0
+
+# --- Production API & Validation ---
+fastapi>=0.115.0
+uvicorn>=0.32.0
+pydantic>=2.12.0
+python-dotenv>=1.0.1
+asyncpg>=0.29.0
+python-multipart
+# --- Auth & Security ---
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+
+# --- Caching & Jobs ---
+redis>=5.0.0
+
+# --- Reliability ---
+tenacity>=8.5.0
+
+# --- Observability ---
+prometheus-client>=0.20.0
+greenlet
+bcrypt==3.2.2
+passlib[bcrypt]==1.7.4
+alembic>=1.13.1
